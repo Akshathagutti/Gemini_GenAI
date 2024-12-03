@@ -1,0 +1,13 @@
+prefix=E:/ollama_pdf_rag/GeminiLLMAPP/venv/Library
+exec_prefix=E:/ollama_pdf_rag/GeminiLLMAPP/venv/Library
+libdir=E:/ollama_pdf_rag/GeminiLLMAPP/venv/Library/lib
+sharedlibdir=E:/ollama_pdf_rag/GeminiLLMAPP/venv/Library/lib
+includedir=E:/ollama_pdf_rag/GeminiLLMAPP/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

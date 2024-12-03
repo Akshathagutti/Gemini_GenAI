@@ -1,0 +1,3 @@
+1. Upload the pdf from the UI
+2. using the faiss vectore DB
+3. Running in streamlit
